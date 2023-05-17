@@ -37251,14 +37251,14 @@ var staticRenderFns = [
             { staticClass: "text-center", staticStyle: { color: "black" } },
             [
               _vm._v(
-                "\n            Solusi Pakaian Kotor Ingat kami !\n          "
+                "\n            Solusi Sepatu Kotor Ingat kami !\n          "
               )
             ]
           ),
           _vm._v(" "),
           _c("h3", { staticClass: "text-center" }, [
             _vm._v(
-              "\n            Tunggu aja dirumah, biar kurir kami yang jemput dan antar pakaian kotor kamu :)\n          "
+              "\n            Tunggu aja dirumah, biar kurir kami yang jemput dan antar sepatu kotor kamu :)\n          "
             )
           ])
         ])

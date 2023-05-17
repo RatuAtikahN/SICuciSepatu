@@ -8,10 +8,10 @@
         <div class="col-md-6" style="max-height:400px; min-height:400px;">
         <div class="" style="margin-top: 20%">
             <h1 class="text-center" style="color: black">
-              Solusi Pakaian Kotor Ingat kami !
+              Solusi Sepatu Kotor Ingat kami !
             </h1>
             <h3 class="text-center">
-              Tunggu aja dirumah, biar kurir kami yang jemput dan antar pakaian kotor kamu :)
+              Tunggu aja dirumah, biar kurir kami yang jemput dan antar sepatu kotor kamu :)
             </h3>
         </div>
         </div>
