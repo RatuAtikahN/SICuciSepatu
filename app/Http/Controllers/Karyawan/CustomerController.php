@@ -56,7 +56,7 @@ class CustomerController extends Controller
           $removeNol = $request->no_telp; // Balikan jika format sudah benar
         }
 
-        $password = str::random(8);
+        $password = '12345678';//str::random(8);
 
         $addCustomer = User::create([
           'karyawan_id' => Auth::id(),
