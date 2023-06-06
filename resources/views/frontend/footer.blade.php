@@ -43,21 +43,21 @@
                 <div class="section-container">
                     <h4>Hubungi Kami</h4>
                     <ul class="new-user">
-                      <li>
+                      {{-- <li>
                         <a href="https://facebook.com/{{$setpage->facebook ?? ''}}" target="_blank">
                           <i class="fa fa-facebook-square fa-2x" style="color: #4267B2"></i>
                         </a>
-                      </li>
+                      </li> --}}
                       <li>
                         <a href="https://instagram.com/{{$setpage->instagram ?? ''}}" target="_blank">
                           <i class="fa fa-instagram fa-2x" style="color:#5B51D8"></i>
                         </a>
                       </li>
-                      <li>
+                      {{-- <li>
                         <a href="https://twitter.com/{{$setpage->twitter ?? ''}}" target="_blank">
                           <i class="fa fa-twitter fa-2x" style="color: #1DA1F2"></i>
                         </a>
-                      </li>
+                      </li> --}}
                       <li>
                         <a href="mailto:{{$setpage->email ?? ''}}" target="_blank">
                           <i class="fa fa-envelope fa-2x" style="color: #DB4437"></i>

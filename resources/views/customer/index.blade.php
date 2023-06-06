@@ -32,7 +32,7 @@
                               </div>
                               <div class="media-body my-auto">
                                   <h4 class="font-weight-bolder mb-0">{{$totalLaundry}} Total</h4>
-                                  <p class="card-text font-small-1 mb-0">Jumlah Laundry</p>
+                                  <p class="card-text font-small-1 mb-0">Jumlah Sepatu</p>
                               </div>
                           </div>
                       </div>
@@ -44,8 +44,8 @@
                                   </div>
                               </div>
                               <div class="media-body my-auto">
-                                  <h4 class="font-weight-bolder mb-0">{{$totalLaundryKg}} Kg</h4>
-                                  <p class="card-text font-small-1 mb-0">Jumlah Laundry</p>
+                                  <h4 class="font-weight-bolder mb-0">{{$totalLaundryKg}} Pcs</h4>
+                                  <p class="card-text font-small-1 mb-0">Jumlah Sepatu</p>
                               </div>
                           </div>
                       </div>
@@ -80,7 +80,7 @@
                   <tr>
                     <th>#</th>
                     <th>No Resi</th>
-                    <th>TGL Transaksi</th>
+                    <th>Tanggal Transaksi</th>
                     <th>Status</th>
                     <th>Payment</th>
                     <th>Jenis</th>

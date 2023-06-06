@@ -33,6 +33,6 @@ class RegisterCustomerJob implements ShouldQueue
     public function handle()
     {
       $email = new RegisterCustomer($this->data);
-      Mail::to($this->data['email'])->send($email);
+      // Mail::to($this->data['email'])->send($email);
     }
 }

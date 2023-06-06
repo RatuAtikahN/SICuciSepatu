@@ -80,7 +80,7 @@
             <tbody>
                 <tr>
                     <th class="text-center">#</th>
-                    <th>Jenis Pakaian</th>
+                    <th>Jenis Sepatu</th>
                     <th class="text-right">Berat</th>
                     <th class="text-right">Harga</th>
                     <th class="text-right">Total</th>

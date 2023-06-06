@@ -33,7 +33,7 @@ class DoneCustomer extends Mailable
         $name = 'E-Laundry';
 
         return $this->view('emails.done')
-        ->subject('Laundry Selesai')
+        ->subject('Sepatu Selesai')
         ->with('data', $this->data)
         ->from($address, $name);
 

@@ -39,13 +39,13 @@ class AddOrderRequest extends FormRequest
     {
       return [
         'status_payment.required'   => 'Status Pembayaran wajib dipilih.',
-        'kg.required'               => 'Berat Pakaian tidak boleh kosong.',
-        'kg.numeric'                => 'Berat Pakaian hanya mendukung angka.',
+        'kg.required'               => 'Berat Sepatu tidak boleh kosong.',
+        'kg.numeric'                => 'Berat Sepatu hanya mendukung angka.',
         'hari.required'             => 'Hari tidak boleh kosong.',
         'harga.required'            => 'Harga tidak boleh kosong.',
         'jenis_pembayaran.required' => 'Jenis Pembayaran wajib dipilih.',
         'disc.numeric'              => 'Diskon hanya mendukung angka.',
-        'harga_id.required'         => 'Jenis Pakaian wajib dipilih.',
+        'harga_id.required'         => 'Jenis Sepatu wajib dipilih.',
         'customer_id.required'      => 'Customer wajib dipilih.'
       ];
     }

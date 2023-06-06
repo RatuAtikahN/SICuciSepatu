@@ -82,7 +82,7 @@
                         <p style="font-weight: 700; font-size: 20px; margin-top: 0; --text-opacity: 1; color: #ff5850; color: rgba(255, 88, 80, var(--text-opacity));">{{$data['customer']}}</p>
 
                         <p style="font-size: 14px; line-height: 24px; margin-top: 6px; margin-bottom: 20px;">
-                          Terima kasih sudah mempercayakan pakaian kakak kepada kami, berikut ini adalah invoice untuk Laundry kakak. Untuk mengetahui status Laundry, kakak bisa mengecek nya melalui halaman Dashboard.
+                          Terima kasih sudah mempercayakan sepatu kakak kepada kami, berikut ini adalah invoice untuk Laundry kakak. Untuk mengetahui status Laundry, kakak bisa mengecek nya melalui halaman Dashboard.
                         </p>
                         <table style="font-family: 'Montserrat',Arial,sans-serif; width: 100%;" width="100%" cellpadding="0" cellspacing="0" role="presentation">
                           <tr>
@@ -101,7 +101,7 @@
                                 <tbody>
                                   <tr>
                                       <th class="text-center">#</th>
-                                      <th>Jenis Pakaian</th>
+                                      <th>Jenis Sepatu</th>
                                       <th class="text-right">Berat</th>
                                       <th class="text-right">Harga</th>
                                       <th class="text-right">Total</th>

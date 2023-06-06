@@ -49,7 +49,7 @@
           <div class="card-header">
               <h4 class="card-title">Pendapatan</h4>
               <div class="d-flex align-items-center">
-                  <p class="card-text font-small-2 mr-25 mb-0">Pendapatan Tahuan & Bulan</p>
+                  <p class="card-text font-small-2 mr-25 mb-0">Pendapatan Tahunan & Bulan</p>
               </div>
           </div>
           <div class="card-body statistics-body">
@@ -106,9 +106,9 @@
           <div class="card-body">
               <div class="row">
                 <div class="col-lg-12 col-12 col-md-12">
-                    <h4>Target Laundry Masuk Per-Hari</h4>
-                    <h5 class="mb-1" style="font-style:italic">{{$target->target_day}} /kg</h5>
-                    <small>Tercapai {{$kgDay}} Kg  <i class="feather icon-{{$kgDay >= $target->target_day ? 'check-circle' : ''}}" style="color: blue"></i> </small>
+                    <h4>Target Sepatu Masuk Per-Hari</h4>
+                    <h5 class="mb-1" style="font-style:italic">{{$target->target_day}} /pcs</h5>
+                    <small>Tercapai {{$kgDay}} Pcs <i class="feather icon-{{$kgDay >= $target->target_day ? 'check-circle' : ''}}" style="color: blue"></i> </small>
                 </div>
               </div>
           </div>
@@ -120,9 +120,9 @@
           <div class="card-body">
               <div class="row">
                 <div class="col-lg-12 col-12 col-md-12">
-                    <h4 >Target Laundry Masuk Per-Bulan</h4>
-                    <h5 class="mb-1" style="font-style:italic">{{$target->target_month}} /kg</h5>
-                    <small>Tercapai {{$kgMonth}} Kg <i class="feather icon-{{$kgMonth >= $target->target_month ? 'check-circle' : ''}}" style="color: blue"></i></small>
+                    <h4 >Target Sepatu Masuk Per-Bulan</h4>
+                    <h5 class="mb-1" style="font-style:italic">{{$target->target_month}} /pcs</h5>
+                    <small>Tercapai {{$kgMonth}} Pcs <i class="feather icon-{{$kgMonth >= $target->target_month ? 'check-circle' : ''}}" style="color: blue"></i></small>
                 </div>
               </div>
           </div>
@@ -134,9 +134,9 @@
           <div class="card-body">
               <div class="row">
                 <div class="col-lg-12 col-12 col-md-12">
-                    <h4>Target Laundry Masuk Per-Tahun</h4>
-                    <h5 class="mb-1" style="font-style:italic">{{$target->target_year}} /kg</h5>
-                    <small>Tercapai {{$kgYear}} Kg <i class="feather icon-{{$kgYear >= $target->target_year ? 'check-circle' : ''}}" style="color: blue"></i></small>
+                    <h4>Target Sepatu Masuk Per-Tahun</h4>
+                    <h5 class="mb-1" style="font-style:italic">{{$target->target_year}} /pcs</h5>
+                    <small>Tercapai {{$kgYear}} Pcs <i class="feather icon-{{$kgYear >= $target->target_year ? 'check-circle' : ''}}" style="color: blue"></i></small>
                 </div>
               </div>
           </div>

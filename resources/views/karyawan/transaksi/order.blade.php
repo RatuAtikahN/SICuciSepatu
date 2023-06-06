@@ -24,7 +24,7 @@
                     <tr>
                         <th>#</th>
                         <th>No Resi</th>
-                        <th>TGL Transaksi</th>
+                        <th>Tanggal Transaksi</th>
                         <th>Customer</th>
                         <th>Status Laundry</th>
                         <th>Payment</th>

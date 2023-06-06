@@ -1,6 +1,6 @@
 {{-- Banner --}}
     <div class="bg-cover">
-    <img src="{{asset('frontend/img/laundry.jpg')}}" alt="" />
+    <img src="{{asset('frontend/img/laundry.jpeg')}}" alt="" />
     </div>
     <!-- end bg-cover -->
     <!-- begin container -->

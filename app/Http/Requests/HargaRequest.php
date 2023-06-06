@@ -35,7 +35,7 @@ class HargaRequest extends FormRequest
     {
       return [
         'user_id.required'  => 'Cabang tidak boleh kosong.',
-        'jenis.required'    => 'Jenis pakaian tidak boleh kosong.',
+        'jenis.required'    => 'Jenis Sepatu tidak boleh kosong.',
         'harga.required'    => 'Harga tidak boleh kosong.',
         'hari.required'     => 'Jumlah hari tidak boleh kosong.'
       ];

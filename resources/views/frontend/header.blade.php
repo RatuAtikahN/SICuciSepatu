@@ -9,7 +9,8 @@
               <span class="icon-bar"></span>
           </button>
           <a href="{{url('/')}}" class="navbar-brand">
-              <span class="navbar-logo"></span>
+              <!-- <span class="navbar-logo"></span> -->
+              <img src="{{ url('/frontend/img/logo.jpeg')}}" class="img" style="display: inline-block" />
               <span class="brand-text">
                   {{$setpage != NULL ? $setpage->judul : 'Judul Disini'}}
               </span>

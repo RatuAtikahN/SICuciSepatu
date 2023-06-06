@@ -33,7 +33,7 @@
                     </dl>
 
                     <dl class="row">
-                        <dt class="col-sm-4">Kelamin</dt>
+                        <dt class="col-sm-4">Jenis Kelamin</dt>
                         <dd class="col-sm-4">: {{$customer->kelamin == 'L' ? 'Laki-laki' : 'Perempuan'}}</dd>
                     </dl>
                 </div>
@@ -83,8 +83,8 @@
                             <tr>
                                 <th>#</th>
                                 <th>Invoice</th>
-                                <th>Tgl Transaksi</th>
-                                <th>Tgl Diambil</th>
+                                <th>Tanggal Transaksi</th>
+                                <th>Tanggal Diambil</th>
                                 <th>Jumlah KG</th>
                                 <th>Jenis Pembayaran</th>
                                 <th>Status Transaksi</th>

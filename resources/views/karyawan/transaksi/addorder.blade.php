@@ -53,8 +53,8 @@
                   </div>
                   <div class="col-md-3">
                     <div class="form-group has-success">
-                        <label class="control-label">Berat Pakaian</label>
-                        <input type="text" class="form-control form-control-danger @error('kg') is-invalid @enderror" value=" {{old('kg')}} " name="kg" placeholder="Berat Pakaian" autocomplete="off" >
+                        <label class="control-label">Berat Sepatu</label>
+                        <input type="text" class="form-control form-control-danger @error('kg') is-invalid @enderror" value=" {{old('kg')}} " name="kg" placeholder="Berat Sepatu" autocomplete="off" >
                         @error('kg')
                           <span class="invalid-feedback text-danger" role="alert">
                               <strong>{{ $message }}</strong>
@@ -100,9 +100,9 @@
 
                 <div class="col-md-3">
                   <div class="orm-group has-success">
-                      <label class="control-label">Pilih Pakaian</label>
+                      <label class="control-label">Pilih Sepatu</label>
                       <select id="id" name="harga_id" class="form-control select2 @error('harga_id') is-invalid @enderror" >
-                          <option value="">-- Jenis Pakaian --</option>
+                          <option value="">-- Jenis Sepatu --</option>
                           @foreach($jenisPakaian as $jenis)
                             <option value="{{$jenis->id}}" {{old('harga_id') == $jenis->id ? 'selected' : '' }} >{{$jenis->jenis}}</option>
                           @endforeach

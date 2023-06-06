@@ -7,7 +7,7 @@
                     <p class="font" id="customer"></p>
                 </div>
                 <div class="col-lg-3">
-                    <p class="text">Tgl Transaksi</p>
+                    <p class="text">Tanggal Transaksi</p>
                     <p class="font" id="tgl_transaksi"></p>
                 </div>
                 <div class="col-lg-3">

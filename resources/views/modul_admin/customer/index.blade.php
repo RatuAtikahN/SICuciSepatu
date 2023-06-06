@@ -18,7 +18,7 @@
                                 <th>Nama</th>
                                 <th>Alamat</th>
                                 <th>No Telpon</th>
-                                <th>Kelamin</th>
+                                <th>Jenis Kelamin</th>
                                 <th>Action</th>
                             </tr>
                         </thead>

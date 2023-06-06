@@ -53,7 +53,7 @@ class OrderSelesai extends Notification
     {
       return TelegramMessage::create()
       ->to(telegram_channel_selesai())
-      ->content("*Order Selesai* \nCustomer {$statusorder->customer}\nBerat Pakaian {$statusorder->kg}kg \nTotal Pembayaran Rp. ".number_format($statusorder->harga_akhir)."");
+      ->content("*Order Selesai* \nCustomer {$statusorder->customer}\nBerat Sepatu {$statusorder->kg}kg \nTotal Pembayaran Rp. ".number_format($statusorder->harga_akhir)."");
     }
 
     /**

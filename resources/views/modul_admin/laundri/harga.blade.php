@@ -97,8 +97,8 @@
                               </div>
                               <div class="col-lg-12 col-xl-12">
                                   <div class="form-group has-success">
-                                      <label class="control-label">Jenis Pakaian</label>
-                                      <input type="text" name="jenis" value="{{ old('jenis') }}" class="form-control @error('jenis') is-invalid @enderror" placeholder="Tambahkan Jenis Pakaian" autocomplete="off">
+                                      <label class="control-label">Jenis Sepatu</label>
+                                      <input type="text" name="jenis" value="{{ old('jenis') }}" class="form-control @error('jenis') is-invalid @enderror" placeholder="Tambahkan Jenis Sepatu" autocomplete="off">
                                       <small class="form-control-feedback "> Pisahkan Dengan format '+' Jika Jenis Lebih Dari Satu </small>
                                       @error('jenis')
                                         <span class="invalid-feedback" role="alert">

@@ -22,7 +22,7 @@
             <div class="card-header d-flex align-items-start pb-0">
                 <div>
                     <h2 class="text-bold-700 mb-0">{{$masuk}}</h2>
-                    <p>Laundry Masuk</p>
+                    <p>Sepatu Masuk</p>
                 </div>
                 <div class="avatar bg-rgba-success p-50 m-0">
                     <div class="avatar-content">
@@ -37,7 +37,7 @@
             <div class="card-header d-flex align-items-start pb-0">
                 <div>
                     <h2 class="text-bold-700 mb-0">{{$selesai}}</h2>
-                    <p>Laundry Selesai</p>
+                    <p>Sepatu Selesai</p>
                 </div>
                 <div class="avatar bg-rgba-danger p-50 m-0">
                     <div class="avatar-content">
@@ -52,7 +52,7 @@
             <div class="card-header d-flex align-items-start pb-0">
                 <div>
                     <h2 class="text-bold-700 mb-0">{{$diambil}}</h2>
-                    <p>Laundry Diambil</p>
+                    <p>Sepatu Diambil</p>
                 </div>
                 <div class="avatar bg-rgba-warning p-50 m-0">
                     <div class="avatar-content">
@@ -68,7 +68,7 @@
           <div class="card-header">
               <h4 class="card-title">Pendapatan</h4>
               <div class="d-flex align-items-center">
-                  <p class="card-text font-small-2 mr-25 mb-0">Pendapatan Tahuan & Bulan</p>
+                  <p class="card-text font-small-2 mr-25 mb-0">Pendapatan Tahunan & Bulan</p>
               </div>
           </div>
           <div class="card-body statistics-body">
@@ -163,7 +163,7 @@
     <div class="col-lg-7 col-xl-7 col-12">
         <div class="card">
             <div class="card-header d-flex justify-content-between">
-                <h4 class="card-title">Data Laundry Masuk Per-hari</h4>
+                <h4 class="card-title">Data Sepatu Masuk Per-hari</h4>
             </div>
             <div class="card-content">
                 <div class="card-body pb-0">
@@ -176,7 +176,7 @@
     <div class="col-lg-5 col-xl-5 col-12">
         <div class="card">
             <div class="card-header d-flex justify-content-between">
-                <h4 class="card-title">Data Laundry Masuk Per-bulan</h4>
+                <h4 class="card-title">Data Sepatu Masuk Per-bulan</h4>
             </div>
             <div class="card-content">
                 <div class="card-body pb-0">
@@ -269,7 +269,7 @@ var salesavgChartoptions = {
           x: { show: false }
       },
       series: [{
-            name: "Laundry Masuk",
+            name: "Sepatu Masuk",
             data: [{{$_nilaiB}}]
         }],
 
@@ -357,7 +357,7 @@ var salesavgChartoptions = {
           x: { show: false }
       },
       series: [{
-            name: "Laundry Masuk",
+            name: "Sepatu Masuk",
             data: [{{$_nilai}}],
         }],
 
