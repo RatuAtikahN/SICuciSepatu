@@ -33,7 +33,7 @@
                     </dl>
 
                     <dl class="row">
-                        <dt class="col-sm-4">Jenis Kelamin Customer</dt>
+                        <dt class="col-sm-4">Kelamin Customer</dt>
                         <dd class="col-sm-4">: {{$customer->kelamin == 'L' ? 'Laki-laki' : 'Perempuan'}}</dd>
                     </dl>
 
@@ -42,7 +42,7 @@
             <div class="card-body">
                 <div class="card-text">
                     <dl class="row">
-                        <dt class="col-sm-4">Total Pcs</dt>
+                        <dt class="col-sm-4">Total Kg</dt>
                         <dd class="col-sm-4">: {{$customer->transaksiCustomer()->sum('kg') ?? ''}} Kg</dd>
                     </dl>
 
@@ -84,8 +84,8 @@
                             <tr>
                                 <th>#</th>
                                 <th>Invoice</th>
-                                <th>Tanggal Transaksi</th>
-                                <th>Tanggal Diambil</th>
+                                <th>Tgl Transaksi</th>
+                                <th>Tgl Diambil</th>
                                 <th>Jumlah KG</th>
                                 <th>Jenis Pembayaran</th>
                                 <th>Status Transaksi</th>

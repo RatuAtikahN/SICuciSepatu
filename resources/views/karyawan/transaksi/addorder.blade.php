@@ -53,8 +53,8 @@
                   </div>
                   <div class="col-md-3">
                     <div class="form-group has-success">
-                        <label class="control-label">Berat Sepatu</label>
-                        <input type="text" class="form-control form-control-danger @error('kg') is-invalid @enderror" value=" {{old('kg')}} " name="kg" placeholder="Berat Sepatu" autocomplete="off" >
+                        <label class="control-label">Pasang Sepatu</label>
+                        <input type="text" class="form-control form-control-danger @error('kg') is-invalid @enderror" value=" {{old('kg')}} " name="kg" placeholder="Pasang Sepatu" autocomplete="off" >
                         @error('kg')
                           <span class="invalid-feedback text-danger" role="alert">
                               <strong>{{ $message }}</strong>

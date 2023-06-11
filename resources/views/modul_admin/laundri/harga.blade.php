@@ -28,7 +28,7 @@
                                   <th>#</th>
                                   <th>Jenis</th>
                                   <th>Lama</th>
-                                  <th>Kg</th>
+                                  {{-- <th>Pasang</th> --}}
                                   <th>Harga</th>
                                   <th>Status</th>
                                   <th>Cabang</th>
@@ -42,7 +42,7 @@
                                   <td>{{$no}}</td>
                                   <td>{{$item->jenis}}</td>
                                   <td>{{$item->hari}} Hari</td>
-                                  <td>{{$item->kg}} Kg</td>
+                                  {{-- <td>{{$item->kg}} Pasang</td> --}}
                                   <td>{{Rupiah::getRupiah($item->harga)}}</td>
                                   <td>
                                       @if ($item->status == "1")
@@ -108,19 +108,19 @@
                                   </div>
                               </div>
                               <!--/span-->
-                              <div class="col-lg-12 col-xl-12">
+                              {{-- <div class="col-lg-12 col-xl-12">
                                   <div class="form-group has-success">
                                       <label class="control-label">Berat Per-Kg</label>
                                       <input type="text" class="form-control form-control-danger" value="1000 gram" placeholder="Berat" readonly autocomplete="off">
                                   </div>
-                              </div>
+                              </div> --}}
                           </div>
                           <div class="row">
                               <!--/span-->
                               <div class="col-lg-12 col-xl-12">
                                   <div class="form-group has-success">
-                                      <label class="control-label">Harga Per-Kg</label>
-                                      <input type="text" class="form-control form-control-danger @error('harga') is-invalid @enderror format_harga" name="harga" value="{{ old('harga') }}"placeholder="Harga Per-Kg" autocomplete="off">
+                                      <label class="control-label">Harga Per-Pasang</label>
+                                      <input type="text" class="form-control form-control-danger @error('harga') is-invalid @enderror format_harga" name="harga" value="{{ old('harga') }}"placeholder="Harga Per-Pasang" autocomplete="off">
                                       <small class="form-control-feedback "> Tuliskan Tanpa tanda ',' dan '.' </small>
                                       @error('harga')
                                         <span class="invalid-feedback" role="alert">

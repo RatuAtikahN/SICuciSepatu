@@ -42,7 +42,7 @@
                             <tr>
                                 <th class="text-center">#</th>
                                 <th>Jenis Sepatu</th>
-                                <th class="text-right">Berat</th>
+                                <th class="text-right">Pasang</th>
                                 <th class="text-right">Harga</th>
                                 <th class="text-right">Total</th>
                             </tr>
@@ -52,8 +52,8 @@
                                 <tr>
                                     <td class="text-center">1</td>
                                     <td>{{$item->price->jenis}}</td>
-                                    <td class="text-right">{{$item->kg}} / kg</td>
-                                    <td class="text-right">{{Rupiah::getRupiah($item->harga)}} /kg</td>
+                                    <td class="text-right">{{$item->kg}} / Pasang</td>
+                                    <td class="text-right">{{Rupiah::getRupiah($item->harga)}} / Pasang</td>
                                     <td class="text-right">
                                         <input type="hidden" value="{{$hitung = $item->kg * $item->harga}}">
                                         <p>{{Rupiah::getRupiah($hitung)}}</p>

@@ -138,7 +138,7 @@
                       </div>
                     </div>
                   </div>
-                  <h5>Data Cuci Sepatu</h5>
+                  <h5>Data Laundry</h5>
                   <hr>
 
                   <div class="row">

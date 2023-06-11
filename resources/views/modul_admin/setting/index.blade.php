@@ -94,23 +94,23 @@
                         </div>
                       </div>
 
-                      <div class="col-md-4">
+                      {{-- <div class="col-md-4">
                         <div class="form-group">
                           <div class="controls">
                             <label for="facebook">Facebook</label>
                             <input type="text" name="facebook" class="form-control" value="{{$setpage->facebook}}" placeholder="Username Facebook">
                           </div>
                         </div>
-                      </div>
+                      </div> --}}
 
-                      <div class="col-md-4">
+                      {{-- <div class="col-md-4">
                         <div class="form-group">
                           <div class="controls">
                             <label for="twitter">Twitter</label>
                             <input type="text" name="twitter" class="form-control" value="{{$setpage->twitter}}" placeholder="Username Twitter">
                           </div>
                         </div>
-                      </div>
+                      </div> --}}
 
                       <div class="col-md-4">
                         <div class="form-group">

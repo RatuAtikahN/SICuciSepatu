@@ -46,7 +46,7 @@
                               </div>
                               <div class="media-body my-auto">
                                   <h4 class="font-weight-bolder mb-0">{{$masuk}}</h4>
-                                  <p class="card-text font-small-1 mb-0">Sepatu Masuk</p>
+                                  <p class="card-text font-small-1 mb-0">Laundry Masuk</p>
                               </div>
                           </div>
                       </div>
@@ -59,7 +59,7 @@
                               </div>
                               <div class="media-body my-auto">
                                   <h4 class="font-weight-bolder mb-0"> {{$selesai}} </h4>
-                                  <p class="card-text font-small-1 mb-0">Sepatu Selesai</p>
+                                  <p class="card-text font-small-1 mb-0">Laundry Selesai</p>
                               </div>
                           </div>
                       </div>
@@ -72,7 +72,7 @@
                               </div>
                               <div class="media-body my-auto">
                                   <h4 class="font-weight-bolder mb-0">{{$diambil}}</h4>
-                                  <p class="card-text font-small-1 mb-0">Sepatu Diambil</p>
+                                  <p class="card-text font-small-1 mb-0">Laundry Diambil</p>
                               </div>
                           </div>
                       </div>
@@ -91,8 +91,8 @@
                 <div class="card">
                     <div class="card-body pb-50">
                         <h4>Hari ini</h4>
-                        <h6 class="font-weight-bolder mb-1">{{$kgToday}} <span style="font-style: italic; font-size:9px">Pcs</span> </h6>
-                        <span style="font-size:10px">Pcs</span>
+                        <h6 class="font-weight-bolder mb-1">{{$kgToday}} <span style="font-style: italic; font-size:9px">Pasang</span> </h6>
+                        {{-- <span style="font-size:10px">Pasang</span> --}}
                     </div>
                 </div>
             </div>
@@ -103,8 +103,8 @@
                 <div class="card card-tiny-line-stats">
                     <div class="card-body pb-50">
                         <h4>Kemarin</h4>
-                        <h6 class="font-weight-bolder mb-1">{{$kgTodayOld}} <span style="font-style: italic; font-size:9px">Pcs</span></h6>
-                        <span style="font-size:10px">Pcs</span>
+                        <h6 class="font-weight-bolder mb-1">{{$kgTodayOld}} <span style="font-style: italic; font-size:9px">Pasang</span></h6>
+                        {{-- <span style="font-size:10px">Pasang</span> --}}
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@
     <div class="col-lg-8 col-12">
         <div class="card">
             <div class="card-header d-flex justify-content-between">
-                <h4 class="card-title">Data Sepatu Masuk Per-bulan</h4>
+                <h4 class="card-title">Data Laundry Sepatu Masuk Per-bulan</h4>
             </div>
             <div class="card-content">
                 <div class="card-body pb-0">
@@ -228,7 +228,7 @@ var salesavgChartoptions = {
           x: { show: false }
       },
       series: [{
-            name: "Sepatu Masuk",
+            name: "Laundry Masuk",
             data: [{{$_nilaiB}}]
         }],
 

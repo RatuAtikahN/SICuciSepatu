@@ -110,7 +110,7 @@
                                       <td style="color:black">1</td>
                                       <td style="color:black">{{$data['pakaian']}}</td>
                                       <td style="color:black">{{$data['berat']}} Kg</td>
-                                      <td style="color:black">Rp. {{number_format($data['harga'],0,",",".")}} /Kg</td>
+                                      <td style="color:black">Rp. {{number_format($data['harga'],0,",",".")}} / Pasang</td>
                                       <td>
                                         <p style="color:black">Rp. {{number_format($data['total'],0,",",".")}}</p>
                                       </td>

@@ -23,12 +23,12 @@
                         <label for="message-text" class="control-label">Lama hari:</label>
                         <input type="text" name="hari" id="hari" class="form-control">
                     </div>
-                    <div class="form-group">
+                    {{-- <div class="form-group">
                         <label for="message-text" class="control-label">Berat Per-Kg:</label>
                         <input type="text" name="kg" id="kg" class="form-control">
-                    </div>
+                    </div> --}}
                     <div class="form-group">
-                        <label for="message-text" class="control-label">Harga Per-Kg:</label>
+                        <label for="message-text" class="control-label">Harga Per-Pasang:</label>
                         <input type="text" name="harga" id="harga" class="form-control">
                     </div>
                 </form>
