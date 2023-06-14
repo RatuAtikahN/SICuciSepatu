@@ -42,8 +42,8 @@
             <div class="card-body">
                 <div class="card-text">
                     <dl class="row">
-                        <dt class="col-sm-4">Total Kg</dt>
-                        <dd class="col-sm-4">: {{$customer->transaksiCustomer()->sum('kg') ?? ''}} Kg</dd>
+                        <dt class="col-sm-4">Total Pasang Sepatu</dt>
+                        <dd class="col-sm-4">: {{$customer->transaksiCustomer()->sum('kg') ?? ''}} Pasang</dd>
                     </dl>
 
                     <dl class="row">
@@ -86,7 +86,7 @@
                                 <th>Invoice</th>
                                 <th>Tgl Transaksi</th>
                                 <th>Tgl Diambil</th>
-                                <th>Jumlah KG</th>
+                                <th>Jumlah Pasang Sepatu</th>
                                 <th>Jenis Pembayaran</th>
                                 <th>Status Transaksi</th>
                                 <th>Total Harga</th>
@@ -99,7 +99,7 @@
                               <td>{{$item->invoice}}</td>
                               <td>{{$item->tgl_transaksi}}</td>
                               <td>{{$item->tgl_ambil ?? 'Belum Diambil'}}</td>
-                              <td>{{$item->kg}} kg</td>
+                              <td>{{$item->kg}} Pasang</td>
                               <td>{{$item->jenis_pembayaran}}</td>
                               <td>{{$item->status_order}}</td>
                               <td>{{Rupiah::getRupiah($item->harga_akhir)}}</td>
